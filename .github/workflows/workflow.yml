@@ -6,8 +6,8 @@ jobs:
   builder-and-test:
     runs-on: ubuntu-latest
     steps:
-      -name: print hello
-       run : echo "HELLO WORLD"
-      -name : Print GoodBye!
-       run: echo "GOODBYE"
+      - name: print hello
+        run : echo "HELLO WORLD"
+      - name : Print GoodBye!
+        run: echo "GOODBYE"
     
